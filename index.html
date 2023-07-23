@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Template</title>
-  <link rel="icon" href="images/logodaempresa.jpg">
+  <link rel="icon" href="images/logo.png">
   <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;900&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
  <!-- CSS Stylesheets -->
@@ -24,46 +24,45 @@
 
   <section class="colored-section" id="title">
     <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <a class="navbar-brand" href="#">
-        <img src="images/logodaempresa.jpg" alt="Bootstrap" width="30" height="24">
+    <nav class="navbar navbar-expand-lg bg-white">
+      <a class="navbar-brand py-2" href="#">
+        <img src="images/logo.png" alt="Bootstrap" width="55" height="50">
       </a>
-      <a class="navbar-brand fs-1" href="">Marca</a>
+      <!-- <a class="navbar-brand fs-1" href="">Happy Dog</a> -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <ul class="navbar-nav ms-auto ">
+        <ul class="navbar-nav ms-auto text-secondary">
           <li class="nav-item">
             <a class="nav-link" href="#about">Sobre</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#pricing">Serviços</a>
+            <a class="nav-link" href="#servicos">Serviços</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#cta">Depoimentos</a>
+            <a class="nav-link" href="#depoimentos">Depoimentos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#cta">Galeria</a>
+            <a class="nav-link" href="#galeria">Galeria</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#cta">Contato</a>
+            <a class="nav-link" href="#contato">Contato</a>
           </li>
         </ul>
       </div>
-
     </nav>
 
     <div class="container-fluid">
       <!-- Title -->
-      <div class="row">
+      <div class="row align-items-center">
         <div class="col-lg-6 order-lg-2">
           <img class="title-img" src="images/title-photo.jpg" alt="dog">
         </div>
         <div class="col-lg-6 order-lg-1">
-          <h1 class="big-heading text-white mb-4">Creche e Hotel para cães e gatos</h1>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-whatsapp"></i>
+          <h1 class="big-heading text-color-1 fw-bold">Pet DayCare</h1>
+          <h3 class="fw-light title-text">Creche | Hotel</h3>
+          <h5 class="mb-4 fw-light">O carinho e conforto que seu pet merece!</h5>
         </div>
       </div>
 
@@ -73,48 +72,74 @@
 <!-- About us-->
   <section class="white-section" id="about">
     <div class="container-fluid">
-      <div class="row">
+      <div class="row align-items-center">
         <div class="col-lg-6">
-          <img class="title-img" src="images/title-photo.jpg" alt="dog">
+          <img class="about-img" src="images/logo.png" alt="dog">
         </div>
         <div class="col-lg-6">
-          <h1>Creche e Hotel para cães e gatos</h1>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-whatsapp"></i>
+          <h1 class="big-heading text-color-2 fw-bold">Sobre nós</h1>
+          <h5 class="fw-light about-text">Oferecemos diversas atividades e muito carinho.
+            Nossas instalações são completas oferecendo tudo o que seu pet precisa. Caso precise viajar, também temos opção de hospedagem, assim você vai tranquilo e com a certeza de que seu cãozinho ou gatinho está sendo bem cuidado.
+          </h5>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Features -->
+  <!-- Servicos -->
 
-  <section class="colored-section" id="features">
+  <section class="colored-section" id="servicos">
     <div class="container-fluid">
+    <h1 class="big-heading text-color-1 fw-bold">Serviços</h1>
     <div class="row">
       <div class="feature-box col-lg-4 col-md-6">
-        <p class="fa-solid fa-circle-check features-icon"></p>
-        <h3 class="feature-title">Easy to use.</h3>
-        <p>So easy to use, even your dog could do it.</p>
+        <img class="servicos-img" src="images/creche.jpg" alt="dog">
+        <h3 class="feature-title">Creche</h3>
       </div>
       <div class="feature-box col-lg-4 col-md-6">
-        <p class="fa-solid fa-bullseye features-icon"></p>
-        <h3 class="feature-title">Elite Clientele</h3>
-        <p>We have all the dogs, the greatest dogs.</p>
+        <img class="servicos-img" src="images/hospedagem.jpg" alt="dog">
+        <h3 class="feature-title">Hospedagem</h3>
       </div>
       <div class="feature-box col-lg-4">
-        <p class="fa-solid fa-heart features-icon"></p>
-        <h3 class="feature-title">Guaranteed to work.</h3>
-        <p>Find the love of your dog's life or your money back.</p>
+        <img class="servicos-img" src="images/petshop.jpg" alt="dog">
+        <h3 class="feature-title">Petshop</h3>
       </div>
     </div>
   </div>
   </section>
 
+  <!-- Galeria-->
+  <section class="white-section" id="galeria">
+    <div class="container-fluid px-0">
+      <h1 class="big-heading text-color-2 fw-bold">Nossos clientes felizes</h1>
+      <div class="row">
+        <div class="col-sm-7 col-md-4">
+          <img class="galeria-img" src="images/galeria-1.jpg" alt="dog">
+        </div>
+        <div class="col-sm-4 col-md-4">
+          <img class="galeria-img" src="images/galeria-2.jpg" alt="dog">
+        </div>
+        <div class="col-sm-4 col-md-4">
+          <img class="galeria-img" src="images/galeria-3.jpg" alt="dog">
+        </div>
+        <div class="col-sm-7 col-md-4">
+          <img class="galeria-img" src="images/galeria-4.jpg" alt="dog">
+        </div>
+        <div class="col-sm-7 col-md-4">
+          <img class="galeria-img" src="images/galeria-5.jpg" alt="dog">
+        </div>
+        <div class="col-sm-4 col-md-4">
+          <img class="galeria-img" src="images/galeria-6.jpg" alt="dog">
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <!-- Testimonials -->
 
-  <section class="colored-section" id="testimonials">
+  <!-- Depoimentos -->
 
+  <section class="colored-section" id="depoimentos">
+    <h1 class="big-heading text-color-1 fw-bold">Depoimentos</h1>
     <div id="testimonials-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="hover">
       <div class="carousel-inner">
         <div class="carousel-item active container-fluid">
@@ -140,81 +165,21 @@
 
   </section>
 
-
-  <!-- Press -->
-
-  <section id="press">
-    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
-    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
-    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
-    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
-
-  </section>
-
-
-  <!-- Pricing -->
-
-  <section class="white-section" id="pricing">
-
-    <h2 class="section-heading">A Plan for Every Dog's Needs</h2>
-    <p>Simple and affordable price plans for your and your dog.</p>
-
-    <div class="row">
-      <div class="pricing-column col-lg-4 col-md-6">
-        <div class="card">
-          <div class="card-header">
-            <h3>Chihuahua</h3>
-          </div>
-          <div class="card-body">
-            <h2 class="price-text">Free</h2>
-            <p>5 Matches Per Day</p>
-            <p>10 Messages Per Day</p>
-            <p>Unlimited App Usage</p>
-            <button class="w-100 btn btn-lg btn-block btn-outline-dark"type="button">Sign Up</button>
-          </div>
+  <!-- Contato-->
+  <section class="white-section" id="contato">
+    <div class="container-fluid">
+      <h1 class="big-heading text-color-2 fw-bold">Contato</h1>
+      <div class="row">
+        <div class="col-lg-5 order-lg-2">
+          <h5 class="fw-light">whatsapp</h5>
+          <h5 class="fw-light">Instagram</h5>
+          <h5 class="fw-light">Endereço</h5>
         </div>
-      </div>
-      <div class="pricing-column col-lg-4 col-md-6">
-        <div class="card">
-          <div class="card-header">
-            <h3>Labrador</h3>
-          </div>
-          <div class="card-body">
-            <h2 class="price-text">$49 / mo</h2>
-            <p>Unlimited Matches</p>
-            <p>Unlimited Messages</p>
-            <p>Unlimited App Usage</p>
-            <button class="w-100 btn btn-lg btn-block btn-dark"type="button">Sign Up</button>
-          </div>
-        </div>
-      </div>
-      <div class="pricing-column col-lg-4">
-        <div class="card">
-          <div class="card-header">
-            <h3>Mastiff</h3>
-          </div>
-          <div class="card-body">
-            <h2 class="price-text">$99 / mo</h2>
-            <p>Pirority Listing</p>
-            <p>Unlimited Matches</p>
-            <p>Unlimited Messages</p>
-            <p>Unlimited App Usage</p>
-            <button class="w-100 btn btn-lg btn-block btn-dark"type="button">Sign Up</button>
-          </div>
+        <div class="col-lg-7 order-lg-1">
+          <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48354.235921413005!2d-74.00719417684242!3d40.75895103989844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25f436dd82b2d%3A0x706d535c6dca022c!2sNYC%20Pet%20Services!5e0!3m2!1sen!2sbr!4v1690131482993!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </div>
-  </section>
-
-
-  <!-- Call to Action -->
-
-  <section class="colored-section" id="cta">
-<div class="container-fluid">
-    <h2 class="section-heading">Find the True Love of Your Dog's Life Today.</h2>
-    <button class="btn-cta btn btn-dark btn-lg" type="button"><span class="fab fa-apple"></span> Download</button>
-    <button class="btn-cta btn btn-light btn-lg ms-3" type="button"><span class="fab fa-google-play"></span> Download</button>
-</div>
   </section>
 
 
