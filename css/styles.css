@@ -42,7 +42,7 @@ html,body
 }
 
 .container-title{
-  padding: 2% 3%;
+  padding: 2% 5%;
   background-image: url("https://www.transparenttextures.com/patterns/rocky-wall.png");
 }
 
@@ -68,7 +68,7 @@ html,body
 
 /* Navigation Bar */
 .navbar {
-  padding: 0 15%;
+  padding: 0 5%;
 }
 
 .navbar-brand {
@@ -158,6 +158,10 @@ a:hover {
 }
 
 @media (max-width: 1010px) {
+
+  .colored-section{
+    background-color: #fadbc2;
+  }
 
   #title, #about{
     text-align: center;
