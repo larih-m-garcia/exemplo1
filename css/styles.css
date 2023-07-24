@@ -3,29 +3,26 @@ body {
   text-align: center;
 }
 
-/* h1, h2, h3, h4, h5, h6{
-  font-weight: 900;
-} */
-
-/* p{
-  color: #8f8f8f;
-} */
-
 .container-fluid {
-  padding: 3% 15%;
+  padding: 5% 15% 8%;
 }
 
 .text-color-1 {
-  color: #d86f0d;
+  color: #862B0D;
 }
 
 .text-color-2 {
-  color: #b6d889;
+  color: #B5C99A;
 }
+
+#footer, #depoimentos {
+  background-color: #FFC95F;
+}
+
 /* Sections */
 
 .colored-section{
-  background-color: #faf6ec;
+  background-color: #FAEAB1;
 }
 
 .white-section{
@@ -122,7 +119,8 @@ body {
 
 .testemonial-text{
   line-height: 1.5;
-  font-size: 3rem;
+  font-size: 1.2rem;
+  padding: 3% 10% 10% 10%;
 }
 
 .testimonial-img {
@@ -131,28 +129,8 @@ body {
   margin: 20px;
 }
 
-#press {
-  background-color: #ef8172;
-  padding-bottom: 3%;
-}
-
-.press-logo {
-  width: 15%;
-  margin: 20px 20px 50px;
-}
-
-/* Pricing Section */
-#pricing {
-  padding: 100px;
-}
-
-.pricing-column {
-  padding: 3% 2%;
-}
-
-.price-text{
-  line-height: 1.5;
-  font-size: 3rem;
+.box-depoimentos {
+  padding: 0% 10%;
 }
 
 /* Contato */
@@ -160,10 +138,9 @@ body {
   width: 100%;
 }
 
-/* Footer */
-
-.footer-img{
-  margin: 0 1% 2%;
+.contato-info{
+  text-align: left;
+  margin-bottom: 15%;
 }
 
 @media (max-width: 1010px) {
@@ -182,5 +159,14 @@ body {
     width: 50%;
     height: 80%;
     padding-top: 10%;
+  }
+
+  .box-depoimentos {
+    padding: 0% 0%;
+  }
+
+  .contato-info{
+    text-align: center;
+    margin-bottom: 10%;
   }
 }
