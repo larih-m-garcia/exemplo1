@@ -97,9 +97,7 @@ html,body
 
 /* Serviços */
 #servicos {
-  background-color: #faeec2;
   background-image: url("https://www.transparenttextures.com/patterns/connected.png");
-  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 .feature-box {
@@ -118,22 +116,15 @@ html,body
 
 /* Galeria */
 
-#galeria {
-  padding-left: 0;
-  padding-right: 0;
-}
-
 .galeria-img {
   width: 100%;
   height: 100%;
-  padding-top: 5%;
 }
 
 /* Depoimentos */
 
 .testemonial-text{
   line-height: 1.5;
-  font-size: 1.2rem;
   padding: 3% 10% 10% 10%;
 }
 
@@ -155,6 +146,15 @@ html,body
 .contato-info{
   text-align: left;
   margin-bottom: 15%;
+}
+
+a:link { 
+  text-decoration: none;
+}
+
+a:hover { 
+  color: black;
+  font-weight: 500;
 }
 
 @media (max-width: 1010px) {
@@ -187,6 +187,12 @@ html,body
 
   .box-depoimentos {
     padding: 0% 0%;
+  }
+
+  .testemonial-text{
+    line-height: 1.5;
+    font-size: 1rem;
+    padding: 3% 10% 10% 10%;
   }
 
   .contato-info{
