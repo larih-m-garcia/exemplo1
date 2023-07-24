@@ -1,10 +1,16 @@
-body {
+html,body
+{
   font-family: 'Montserrat', 'serif';
   text-align: center;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
 }
 
 .container-fluid {
-  padding: 5% 15% 8%;
+  padding: 3% 15% 6%;
 }
 
 .text-color-1 {
@@ -22,7 +28,7 @@ body {
 /* Sections */
 
 .colored-section{
-  background-color: #FAEAB1;
+  background-color: #faeec2;
 }
 
 .white-section{
@@ -35,6 +41,16 @@ body {
   text-align: left;
 }
 
+.container-title{
+  padding: 2% 3%;
+  background-image: url("https://www.transparenttextures.com/patterns/rocky-wall.png");
+}
+
+.title-text {
+  font-size: 4rem;
+  margin-bottom: 0px;
+}
+
 .title-img {
   width: 100%;
   border-radius: 100%;
@@ -42,7 +58,6 @@ body {
 
 /* Headings */
 .big-heading {
-  font-size: 3.2rem;
   font-family: "Ubuntu";
 }
 
@@ -81,9 +96,10 @@ body {
 }
 
 /* Serviços */
-#features {
-  position: relative;
-  z-index: 1;
+#servicos {
+  background-color: #faeec2;
+  background-image: url("https://www.transparenttextures.com/patterns/connected.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 .feature-box {
@@ -92,14 +108,12 @@ body {
 
 .servicos-img {
   width: 90%;
-  height: 90%;
-  border-radius: 100%;
-  padding-top: 10%;
+  height: 80%;
 }
 
 .feature-title{
-  font-size: 1.5rem;
-  padding-top: 10%;
+  padding-top: 15%;
+  padding-bottom: 15%;
 }
 
 /* Galeria */
@@ -149,15 +163,25 @@ body {
     text-align: center;
   }
   .title-img {
-    width:80%;
+    width: 100%
+  }
+  .title-text {
+    font-size: 2.5rem;
+  }
+
+  .big-heading {
+    padding-top: 5%;
   }
   .about-text {
     font-size: medium;
   }
 
   .servicos-img {
-    width: 50%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
+  }
+
+  .feature-title{
     padding-top: 10%;
   }
 
