@@ -48,7 +48,7 @@ html,body
 /* Sections */
 
 .colored-section{
-  background-color: #faeec2;
+  background-color: #fadbc2;
 }
 
 .white-section{
@@ -179,10 +179,6 @@ a:hover {
 }
 
 @media (max-width: 1010px) {
-
-  .colored-section{
-    background-color: #fadbc2;
-  }
 
   #title, #about{
     text-align: center;
